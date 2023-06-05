@@ -75,7 +75,7 @@ class ServiziController extends Controller
     public function switchServizio(string $id)
     {
         /*
-          -Posso creare dalla view HTML un pulsante che tramite AJAX che va a richiamare questa funzione per attivare/disattivare il servizio numero $id.
+          -Posso creare dalla view HTML un pulsante che tramite AJAX va a richiamare questa funzione per attivare/disattivare il servizio numero $id.
           -Controllo dal DB lo stato attuale del servizio.
           -Inverto lo stato.
           -ritorno TRUE.
