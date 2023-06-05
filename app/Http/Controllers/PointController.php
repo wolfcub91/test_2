@@ -10,7 +10,7 @@ class PointController extends Controller
     public function visualizzaPoints()
     {
         /*
-          - Estraggo dal DB i Point JOIN servizio.
+          - Estraggo dal DB i Point e i relativi servizi.
           - Ritorno alla view il vettore/oggetto estratto.
          */
     }
